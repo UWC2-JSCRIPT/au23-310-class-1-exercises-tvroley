@@ -18,6 +18,8 @@ const smallPizzaCost = 16.99;
 const largePizzaCost = 19.99;
 const smallPizzaCostPerSquareInch = smallPizzaCost / smallPizzaAreaSquareInches;
 const largePizzaCostPerSquareInch = largePizzaCost / largePizzaAreaSquareInches;
+console.log(smallPizzaCostPerSquareInch);
+console.log(largePizzaCostPerSquareInch);
 
 // 3. Using the Math object, put together a code snippet
 // that allows you to draw a random card with a value
