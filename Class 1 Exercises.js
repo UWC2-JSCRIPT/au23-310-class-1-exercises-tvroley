@@ -5,18 +5,19 @@
 // 1. Pagliacci charges $16.99 for a 13” pizza and $19.99 for a 17” pizza.
 // What is the area for each of these pizzas?
 // (radius would be the listed size - i.e. 13" - divided by 2)
-const thirteenInches = 13;
-const seventeenInches = 17;
-const divideByTwo = 2;
-const powerOfTwo = 2;
-const thirteenInchPizzaArea = Math.PI * Math.pow((thirteenInches / divideByTwo), powerOfTwo);
-const seventeenInchPizzaArea = Math.PI * Math.pow((seventeenInches / divideByTwo), powerOfTwo);
+const smallPizzaSizeDiameterInches = 13;
+const largerPizzaSizeDiameterInches = 17;
+const smallPizzaAreaSquareInches = Math.PI * (smallPizzaSizeDiameterInches / 2) ** 2;
+const largePizzaAreaSquareInches = Math.PI * (largerPizzaSizeDiameterInches / 2) ** 2;
+
+console.log(smallPizzaAreaSquareInches);
+console.log(largePizzaAreaSquareInches);
 
 // 2. What is the cost per square inch of each pizza?
-const thirteenInchPizzaCost = 16.99;
-const seventeenInchPizzaCost = 19.99;
-const thirteenInchPizzaCostPerSquareInch = thirteenInchPizzaCost / thirteenInchPizzaArea;
-const seventeenInchPizzaCostPerSquareInch = seventeenInchPizzaCost / seventeenInchPizzaArea;
+const smallPizzaCost = 16.99;
+const largePizzaCost = 19.99;
+const smallPizzaCostPerSquareInch = smallPizzaCost / smallPizzaAreaSquareInches;
+const largePizzaCostPerSquareInch = largePizzaCost / largePizzaAreaSquareInches;
 
 // 3. Using the Math object, put together a code snippet
 // that allows you to draw a random card with a value
