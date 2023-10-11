@@ -13,7 +13,10 @@ const thirteenInchPizzaArea = Math.PI * Math.pow((thirteenInches / divideByTwo),
 const seventeenInchPizzaArea = Math.PI * Math.pow((seventeenInches / divideByTwo), powerOfTwo);
 
 // 2. What is the cost per square inch of each pizza?
-
+const thirteenInchPizzaCost = 16.99;
+const seventeenInchPizzaCost = 19.99;
+const thirteenInchPizzaCostPerSquareInch = thirteenInchPizzaCost / thirteenInchPizzaArea;
+const seventeenInchPizzaCostPerSquareInch = seventeenInchPizzaCost / seventeenInchPizzaArea;
 
 // 3. Using the Math object, put together a code snippet
 // that allows you to draw a random card with a value
