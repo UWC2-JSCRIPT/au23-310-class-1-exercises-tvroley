@@ -27,9 +27,19 @@ console.log(largePizzaCostPerSquareInch);
 const cardsInASuit = 13;
 randomCard = Math.ceil(Math.random() * cardsInASuit);
 
+console.log(randomCard);
+
 // 4. Draw 3 cards and use Math to determine the highest
 // card
+const card1 = Math.ceil(Math.random() * cardsInASuit);
+const card2 = Math.ceil(Math.random() * cardsInASuit);
+const card3 = Math.ceil(Math.random() * cardsInASuit);
+const highestCard = Math.max(card1, card2, card3);
 
+console.log(card1);
+console.log(card2);
+console.log(card3);
+console.log(highestCard);
 
 /**
  * ADDRESS LINE
