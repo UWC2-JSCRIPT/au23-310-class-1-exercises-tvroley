@@ -68,6 +68,10 @@ console.log(address);
 // Write code that is able to extract the first name from this string into a variable.
 // Hint: use indexOf, slice, and / or substring
 
+const words = address.split(` `);
+const fName = words[0];
+
+console.log(fName);
 
 /**
  * FIND THE MIDDLE DATE
