@@ -10,16 +10,16 @@ const largerPizzaSizeDiameterInches = 17;
 const smallPizzaAreaSquareInches = Math.PI * (smallPizzaSizeDiameterInches / 2) ** 2;
 const largePizzaAreaSquareInches = Math.PI * (largerPizzaSizeDiameterInches / 2) ** 2;
 
-console.log(smallPizzaAreaSquareInches);
-console.log(largePizzaAreaSquareInches);
+console.log("small pizza area: ", smallPizzaAreaSquareInches);
+console.log("large pizza area: ", largePizzaAreaSquareInches);
 
 // 2. What is the cost per square inch of each pizza?
 const smallPizzaCost = 16.99;
 const largePizzaCost = 19.99;
 const smallPizzaCostPerSquareInch = smallPizzaCost / smallPizzaAreaSquareInches;
 const largePizzaCostPerSquareInch = largePizzaCost / largePizzaAreaSquareInches;
-console.log(smallPizzaCostPerSquareInch);
-console.log(largePizzaCostPerSquareInch);
+console.log("small pizza cost per square inch: ", smallPizzaCostPerSquareInch);
+console.log("large pizza cost per square inch: ", largePizzaCostPerSquareInch);
 
 // 3. Using the Math object, put together a code snippet
 // that allows you to draw a random card with a value
@@ -27,7 +27,7 @@ console.log(largePizzaCostPerSquareInch);
 const cardsInASuit = 13;
 randomCard = Math.ceil(Math.random() * cardsInASuit);
 
-console.log(randomCard);
+console.log("random card test:", randomCard);
 
 // 4. Draw 3 cards and use Math to determine the highest
 // card
@@ -36,10 +36,10 @@ const card2 = Math.ceil(Math.random() * cardsInASuit);
 const card3 = Math.ceil(Math.random() * cardsInASuit);
 const highestCard = Math.max(card1, card2, card3);
 
-console.log(card1);
-console.log(card2);
-console.log(card3);
-console.log(highestCard);
+console.log("random card 1: ", card1);
+console.log("random card 2: ", card2);
+console.log("random card 3: ", card3);
+console.log("highest card: ", highestCard);
 
 /**
  * ADDRESS LINE
