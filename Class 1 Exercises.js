@@ -50,6 +50,15 @@ console.log("highest card: ", highestCard);
 // this information to create a formatted address block
 // that could be printed onto an envelope.
 
+const firstName = 'Rick';
+const lastName = 'Steves';
+const streetAddress = '12345 Log Lane';
+const city = 'Twin Peaks';
+const state = 'WA';
+const zipCode = '91234';
+const address = `${firstName} ${lastName}\n${streetAddress}\n${city}, ${state} ${zipCode}`;
+
+console.log(address);
 
 // 2. You are given a string in this format:
 // firstName lastName(assume no spaces in either)
