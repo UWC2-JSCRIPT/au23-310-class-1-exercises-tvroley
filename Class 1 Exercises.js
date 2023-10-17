@@ -27,7 +27,7 @@ console.log("large pizza cost per square inch: ", largePizzaCostPerSquareInch);
 const cardsInASuit = 13;
 randomCard = Math.ceil(Math.random() * cardsInASuit);
 
-console.log("random card test:", randomCard);
+console.log("random card test: ", randomCard);
 
 // 4. Draw 3 cards and use Math to determine the highest
 // card
@@ -68,7 +68,7 @@ console.log(address);
 // Write code that is able to extract the first name from this string into a variable.
 // Hint: use indexOf, slice, and / or substring
 
-const words = address.split(` `);
+const words = address.split(' ');
 const fName = words[0];
 
 console.log(fName);
